@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../profile/index";
 import "./styles.css";
-import img from "./img/img-codes.jpg";
+import img from "./img/codes.jpg";
 
 export default class HeaderMiller extends React.Component {
   render() {

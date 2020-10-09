@@ -20,6 +20,20 @@
   border: 0;
   cursor: pointer;
   padding: 10px 15px;
+  transition: all 0.7s;
+}
+
+.buttons-projects:hover {
+  background: linear-gradient(#00b3ff, #005c83, #003247);
+  color: #f1f1f1;
+}
+
+.buttons-projects:focus {
+  background: linear-gradient(#003247, #005c83, #00b3ff);
+}
+
+#button-curriculo {
+  margin-right: 12px;
 }
 
 #section-img-capa-profile {
@@ -36,8 +50,6 @@
   border-top: 1.7px solid #f1f1f1;
   position: absolute;
   bottom: 26px;
-  display: flex;
-  justify-content: flex-start;
   width: 63%;
 }
 
@@ -50,7 +62,7 @@
   height: 0;
   z-index: 4;
   position: absolute;
-  bottom: 41%;
+  bottom: 45%;
 }
 
 .title-lucasMiller {
