@@ -1,0 +1,65 @@
+#header-home {
+  width: 100%;
+  padding: 324px 0;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(#dadada, #555555, #3a3a3a);
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+
+#title-projects {
+  margin: 12px 0;
+}
+
+.buttons-projects {
+  outline: none;
+  background: #f1f1f1;
+  border-radius: 0 2rem;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+#section-img-capa-profile {
+  width: 89%;
+  height: 46%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-nav {
+  border-top: 1.7px solid #f1f1f1;
+  position: absolute;
+  bottom: 26px;
+  display: flex;
+  justify-content: flex-start;
+  width: 63%;
+}
+
+#section-myProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 57%;
+  height: 0;
+  z-index: 4;
+  position: absolute;
+  bottom: 41%;
+}
+
+.title-lucasMiller {
+  font-size: 3vh;
+  font-weight: 700;
+  color: #f1f1f1;
+}
+
+#img-capa {
+  width: 70%;
+  border-radius: 0 0 0.6rem 0.6rem;
+}

@@ -1,0 +1,27 @@
+#main-paragraph {
+  margin: 700px auto 43px;
+  width: 63%;
+  border-radius: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #f1f1f1;
+  background: #404040;
+}
+
+.paragraph-aboutme {
+  font-size: 20px;
+  margin: 12px 170px 0;
+  line-height: 1.5em;
+}
+
+.h3-aboutme {
+  text-align: center;
+}
+
+#section-aboutme {
+  height: 790px;
+  width: 100%;
+  font-size: 35px;
+  padding: 62px 20px 0;
+  border-radius: 2rem 0 2rem;
+}

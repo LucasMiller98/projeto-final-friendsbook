@@ -1,0 +1,30 @@
+#footerMiller {
+  background: linear-gradient(#202020, #303030, #505050, #606060);
+  padding: 150px 0;
+  max-width: 100%;
+  color: #f1f1f1;
+  font-size: 22px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+}
+
+#section-footerMiller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h3-footerMiller {
+  margin-bottom: 12px;
+  border-bottom: 4px solid #505050;
+  border-radius: 7px;
+  background: #f1f1f1;
+  color: #606060;
+  padding: 5px 20px;
+}
+
+#img-footer-github,
+#img-footer-linkedin {
+  width: 70px;
+}

@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam&display=swap");
+
+#fundo-perfil1 {
+  align-content: center;
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 90%;
+  border: 2px solid black;
+}
+
+#foto-perfil1 {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  border: 3px solid black;
+}
+
+#perfil1 {
+  align-content: center;
+  display: block;
+  margin: auto;
+  justify-content: center;
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+  border-radius: 15px 15px;
+  margin: 0px auto 30px;
+  width: 90%;
+  height: 500px;
+  background: #fff;
+}
+
+#descricao {
+  border-radius: 15px;
+  margin: 0px auto 50px;
+  width: 90%;
+  height: 500px;
+  background: #fff;
+}
+
+#nome1 {
+  font-size: 3rem;
+  color: #066fe5;
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+}
+
+#prof1 {
+  font-family: "Kufam", cursive;
+  font-style: oblique;
+}
+
+#lugar1 {
+  font-family: "Kufam", cursive;
+  font-style: oblique;
+}
+
+#button3 {
+  margin-right: 10px;
+  float: right;
+  border: 2px solid #066fe5;
+  padding: 7px 20px;
+  color: #066fe5;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: #f1f1f1;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#button3:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#button1 {
+  margin-right: 10px;
+  float: right;
+  border: 2px solid #066fe5;
+  padding: 7px 20px;
+  color: #066fe5;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: #f1f1f1;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#button1:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#button2 {
+  /* margin-top: -80px;
+  margin-right: 120px; */
+  float: right;
+  border: 2px solid #066fe5;
+  padding: 7px 20px;
+  color: #066fe5;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: #f1f1f1;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#button2:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#galeria {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 20px;
+  margin: 30px 30px 50px 45px;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 15px 15px;
+  display: block;
+  float: left;
+  border: 2px solid #066fe5;
+  color: #066fe5;
+  background: #f1f1f1;
+}
+
+#ft1 {
+  text-align: center;
+  padding: 5px;
+  font-family: "Kufam", cursive;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.ft {
+  width: 45%;
+  margin: 5px;
+}
+
+#gale {
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+#escrever {
+  font-family: "Kufam", cursive;
+  padding: 1rem;
+  width: 90%;
+  border-radius: 15px;
+  border: none;
+  background: #f1f1f1;
+  outline: none;
+  float: left;
+  margin: 30px 6% 0px 0px;
+  height: 60px;
+}
+
+#bb {
+  float: left;
+  margin: 10px 10px 10px 34%;
+  padding: 10px;
+  border: 2px solid #066fe5;
+  padding: 7px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #066fe5;
+  cursor: pointer;
+}
+
+#bb:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#status {
+  text-align: center;
+  font-family: "Kufam", cursive;
+}
+#botoes_perfil_fake {
+  width: 286px;
+  height: 34px;
+  display: flex;
+  position: absolute;
+  right: 12%;
+}
+#informacao_perfil_fake {
+  margin-left: 15px;
+  width: 226px;
+}
+
+#div_informacao_botoes {
+  display: flex;
+  margin-top: -52px;
+  margin-left: 111px;
+  align-items: center;
+  width: 100%;
+}
+
+#div_feed {
+  height: 500px;
+  width: 45%;
+  position: absolute;
+  top: 530px;
+  right: 49px;
+}
+
+@media (max-width: 1000px) {
+  #descricao {
+    height: 325px;
+  }
+  #div_feed {
+    position: static;
+    width: 90%;
+    height: 450px;
+    background: #fff;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: -40px;
+  }
+  #feeds {
+    width: 75%;
+  }
+  #escrever {
+    width: 75%;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  #bb {
+    margin: 40px 10px 10px;
+    font-size: 1.6rem;
+  }
+  #botoes_perfil_fake {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 725px) {
+  /* vou editar o proximo breakpoint aqui, mas amanhã */
+}

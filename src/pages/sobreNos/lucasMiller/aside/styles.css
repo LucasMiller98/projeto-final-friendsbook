@@ -1,0 +1,110 @@
+#aside-miller {
+  float: left;
+  position: absolute;
+  left: 111px;
+  top: 690px;
+  border-radius: 1rem;
+  background: linear-gradient(#555454, #444141, #302f2f);
+  color: #f1f1f1;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr 2fr;
+  width: 22%;
+  text-align: center;
+}
+
+.img-projects {
+  width: 50px;
+}
+
+.space {
+  padding: 12px 0;
+}
+
+#h3-linkedin {
+  border-bottom: 2px solid #f1f1f1;
+  width: 190px;
+  font-size: 25px;
+}
+
+#h1-projects {
+  font-size: 25px;
+  color: #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.links {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.3s linear;
+  margin-top: 12px;
+}
+
+#curriculo {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  margin: 20px 0;
+}
+
+#curriculo:hover {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.links:hover {
+  border-bottom: 2px solid #f1f1f1;
+  transform: translateX(-3px);
+}
+
+.section-git-linkedIn {
+  display: flex;
+  flex-direction: column;
+  -bottom: 12px;
+}
+
+.links {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.3s linear;
+  margin-top: 12px;
+}
+
+#curriculo {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  margin: 20px 0;
+}
+
+#curriculo:hover {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.links:hover {
+  border-bottom: 2px solid #f1f1f1;
+  transform: translateX(-3px);
+}
+
+.section-git-linkedIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#link-miller-github,
+#link-miller-linkedIn {
+  color: #f1f1f1;
+  margin: 12px 0;
+  text-decoration: none;
+}
+
+#link-miller-github:hover,
+#link-miller-linkedIn:hover {
+  text-decoration: underline;
+}

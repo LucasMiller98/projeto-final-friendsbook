@@ -1,0 +1,81 @@
+#section_perfil_camilla {
+  top: 110px;
+  width: 60%;
+  background: #c179b9;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 450px;
+  z-index: 2;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px #0000004a;
+}
+
+#foto-de-perfil-camilla {
+  margin: 50px 10px 10px 50px;
+  padding: 5px 5px 5px 5px;
+  height: 200px;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #0000008a;
+  position: absolute;
+  z-index: 2;
+}
+
+#nome-camilla {
+  margin-top: 260px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 60px;
+  color: #ffffff;
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+}
+#sobre-mim-camilla {
+  position: relative;
+  width: 50%;
+  z-index: 2;
+  top: 50px;
+  height: 560px;
+  display: flex;
+  margin-left: 600px;
+}
+
+#titulo-sobre-mim-camilla {
+  margin-top: 20px;
+  display: flex;
+}
+#titulo-sobre-meus-projetos {
+  display: flex;
+}
+
+#texto-sobre-camilla {
+  font-size: 13pt;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  color: #333;
+  text-align: justify;
+}
+
+#btn_voltar {
+  position: fixed;
+  z-index: 11;
+  left: 20px;
+  padding: 10px 1px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+}
+/*#sobre-mim-camilla {
+  position: absolute;
+  bottom: 0;
+  top: 240px;
+  right: 0;
+  height: 560px;
+  width: 467px;
+  display: none;
+  z-index:11;
+  }*/
